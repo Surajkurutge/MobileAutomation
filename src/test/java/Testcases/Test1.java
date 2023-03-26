@@ -9,7 +9,7 @@ public class Test1 extends BaseClass{
 	public void Tests() {
 		driver.findElement(By.id("com.androidsample.generalstore:id/nameField")).sendKeys("suraj");
 		driver.findElement(By.id("com.androidsample.generalstore:id/radioFemale")).click();
-		driver.findElement(By.id("com.androidsample.generalstore:id/btnLetsShop")).click();
+		driver.findElement(By.id("com.androidsample.generalstore:id/btnLetsSh")).click();
 		 
 	}
 	
